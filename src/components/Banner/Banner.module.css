@@ -1,0 +1,57 @@
+.banner_container {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.esquerda {
+    flex: 1;
+}
+
+.esquerda_h1 {
+    font-size: 3.2rem;
+}
+
+.esquerda_p {
+    font-size: 1.8rem;
+    padding-bottom: 15px;
+}
+
+.itens {
+    text-decoration-style: none;
+    padding: 0px;
+    display: flex;
+    gap: 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.itens_li {
+    text-decoration-style: none;
+}
+
+.itens_li_a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.direita {
+    width: 400px;
+    text-align: center;
+}
+
+.direita_img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+    .banner_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .direita {
+        padding-top: 10px;
+        align-self: center;
+    }
+}

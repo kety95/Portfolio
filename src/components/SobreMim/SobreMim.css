@@ -1,0 +1,15 @@
+.sobremim-container {
+    background-color: #EAF2FD;
+    padding: 50px 62px;
+}
+
+.sobremim-container p {
+    max-width: 600px;
+}
+
+@media (max-width: 600px) {
+    .sobremim-container {
+        padding: 50px 12px;
+    }
+
+}
