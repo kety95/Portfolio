@@ -1,0 +1,23 @@
+.container-experiencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.right {
+    text-align: start;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 600px) {
+    .container-experiencia{
+        flex-direction: column;
+    }
+
+    .container-experiencia img {
+        width: 300px;
+    }
+}

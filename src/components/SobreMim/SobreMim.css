@@ -5,6 +5,7 @@
 
 .sobremim-container p {
     max-width: 600px;
+    font-size: 1.4rem;
 }
 
 @media (max-width: 600px) {

@@ -1,0 +1,19 @@
+.card-formacao-container {
+    width: 230px;
+    height: 260px;
+}
+
+.card-formacao-container img{
+    width: 230px;
+}
+
+@media (max-width: 600px){
+    .card-formacao-container {
+        width: 130px;
+        height: 200px;
+    }
+    
+    .card-formacao-container img{
+        width: 130px;
+    }
+}

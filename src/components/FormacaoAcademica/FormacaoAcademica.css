@@ -1,0 +1,20 @@
+.formacao-academica-container{
+    background-color: #EAF2FD;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.formacoes{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    text-align: center;
+}
+

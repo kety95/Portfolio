@@ -3,6 +3,8 @@ import Cabecalho from '../../components/Cabecalho'
 import Container from '../../components/Container'
 import Habilidades from '../../components/Habilidades'
 import SobreMim from '../../components/SobreMim'
+import Rodape from '../../components/Rodape'
+import FormacaoAcademica from '../../components/FormacaoAcademica'
 import { FaHtml5 } from "react-icons/fa";
 import { RiJavascriptFill, RiReactjsLine } from "react-icons/ri";
 import { BsFiletypeCss } from "react-icons/bs";
@@ -10,7 +12,9 @@ import { LiaJava } from "react-icons/lia";
 import { MdOutlineSkateboarding } from "react-icons/md";
 import { FaGuitar } from "react-icons/fa";
 import { FaPaintbrush } from "react-icons/fa6";
-import Rodape from '../../components/Rodape'
+import { SiPowerbi } from "react-icons/si";
+import ExperienciaProfissional from '../../components/ExperienciaProfissional'
+
 
 export default function Inicio () {
     const habilidades = [
@@ -18,7 +22,8 @@ export default function Inicio () {
         {icon: <RiJavascriptFill />, nome: 'Javascript'},
         {icon: <RiReactjsLine />, nome: 'React'},
         {icon: <BsFiletypeCss />, nome: 'CSS'},
-        {icon: <LiaJava />, nome: 'Java'}
+        {icon: <LiaJava />, nome: 'Java'},
+        {icon: <SiPowerbi />, nome: 'Power BI'}
     ]
 
     const hobbies = [
@@ -36,6 +41,8 @@ export default function Inicio () {
             <SobreMim/>
             <Habilidades habilidades={ habilidades } titulo={'Skills'}/>
             <Habilidades habilidades={ hobbies } titulo={'Hobbies'}/>
+            <FormacaoAcademica/>
+            <ExperienciaProfissional/>
             <Rodape/>
         </>
     )
