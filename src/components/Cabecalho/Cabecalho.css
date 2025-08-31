@@ -24,6 +24,11 @@
     font-size: 1.2rem;
 }
 
+.itens li a {
+    text-decoration: none;
+    color: #464646;
+}
+
 .email {
     font-weight: 600;
 }
@@ -32,4 +37,8 @@
     .itens {
         display: none;
     }
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -19,37 +19,47 @@ import { GrYoga } from "react-icons/gr";
 import ExperienciaProfissional from '../../components/ExperienciaProfissional'
 
 
-export default function Inicio () {
+export default function Inicio() {
     const habilidades = [
-        {icon: <FaHtml5 />, nome: 'Html 5'},
-        {icon: <RiJavascriptFill />, nome: 'Javascript'},
-        {icon: <RiReactjsLine />, nome: 'React'},
-        {icon: <BsFiletypeCss />, nome: 'CSS'},
-        {icon: <LiaJava />, nome: 'Java'},
-        {icon: <SiPowerbi />, nome: 'Power BI'},
-        {icon: <DiMysql />, nome: 'SQL'}
+        { icon: <FaHtml5 />, nome: 'Html 5' },
+        { icon: <RiJavascriptFill />, nome: 'Javascript' },
+        { icon: <RiReactjsLine />, nome: 'React' },
+        { icon: <BsFiletypeCss />, nome: 'CSS' },
+        { icon: <LiaJava />, nome: 'Java' },
+        { icon: <SiPowerbi />, nome: 'Power BI' },
+        { icon: <DiMysql />, nome: 'SQL' }
     ]
 
     const hobbies = [
-        {icon: <MdOutlineSkateboarding />, nome: 'Skate'},
-        {icon: <FaGuitar />, nome: 'Ukulele'},
-        {icon: <FaPaintbrush />, nome: 'Pintura'},
-        {icon: <TfiWrite />, nome: 'Escrita Criativa'},
-        {icon: <GrYoga />, nome: 'Yoga'}
+        { icon: <MdOutlineSkateboarding />, nome: 'Skate' },
+        { icon: <FaGuitar />, nome: 'Ukulele' },
+        { icon: <FaPaintbrush />, nome: 'Pintura' },
+        { icon: <TfiWrite />, nome: 'Escrita Criativa' },
+        { icon: <GrYoga />, nome: 'Yoga' }
     ]
 
     return (
         <>
             <Container>
-                <Cabecalho/>
-                <Banner/>
+                <Cabecalho />
+                <Banner />
             </Container>
-            <SobreMim/>
-            <Habilidades habilidades={ habilidades } titulo={'Skills'}/>
-            <Habilidades habilidades={ hobbies } titulo={'Hobbies'}/>
-            <FormacaoAcademica/>
-            <ExperienciaProfissional/>
-            <Rodape/>
+            <section id="sobre">
+                <SobreMim />
+            </section>
+            <section id="skills">
+                <Habilidades habilidades={habilidades} titulo={'Skills'} />
+            </section>
+            <section id="hobbies">
+                <Habilidades habilidades={hobbies} titulo={'Hobbies'} />
+            </section>
+            <section id="formacao">
+                <FormacaoAcademica />
+            </section>
+            <section id="experiencia">
+                <ExperienciaProfissional />
+            </section>
+            <Rodape />
         </>
     )
 }
