@@ -1,4 +1,4 @@
-.container-experiencia-profissional{
+.container-experiencia-profissional {
     text-align: center;
     padding: 30px;
     background-color: #F5F5F5;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 600px) {
-    .container-experiencia-profissional{
+    .container-experiencia-profissional {
         flex-direction: column;
     }
 }

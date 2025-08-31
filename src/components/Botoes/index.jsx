@@ -5,7 +5,9 @@ export default function Botoes({ link1, link2 }) {
     return (
         <span className="botoes">
             <Botao link={ link1 } claro>Repositório</Botao>
-            <Botao link={ link2 }>Ver demo</Botao>
+            {link2 && (
+                <Botao link={link2}>Ver demo</Botao>
+            )}
         </span>
     )
 }

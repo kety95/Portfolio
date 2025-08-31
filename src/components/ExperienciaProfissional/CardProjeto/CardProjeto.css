@@ -1,4 +1,4 @@
-.container-experiencia{
+.container-projeto{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,12 +12,17 @@
     font-size: 1.4rem;
 }
 
+.desc{
+    width: 250px;
+}
+
 @media (max-width: 600px) {
-    .container-experiencia{
+    .container-projeto{
         flex-direction: column;
+            gap: 20px;
     }
 
-    .container-experiencia img {
+    .container-projeto img {
         width: 300px;
     }
 }
