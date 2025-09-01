@@ -31,6 +31,18 @@ export default function ExperienciaProfissional() {
                 <CardDash
                     media={
                         <iframe
+                            title="Vendas"
+                            className="dashboard-frame"
+                            src="https://app.fabric.microsoft.com/view?r=eyJrIjoiZDQ4NmIzMGMtZmUxZC00MGYzLTk4ZWMtNGQ5MGUxZjAzNDUyIiwidCI6IjIxYzNkZmQ2LWI2ZjEtNGIwYS04N2U4LWM0YjAxNzU4MjExMCIsImMiOjR9"
+                            allowFullScreen
+                        />
+                    }
+                    titulo="Dashboard Vendas"
+                    desc="Feito em Power BI"
+                />
+                <CardDash
+                    media={
+                        <iframe
                             title="Logística"
                             className="dashboard-frame"
                             src="https://app.fabric.microsoft.com/view?r=eyJrIjoiYWYwNDE5MzAtZjAxMy00MDBmLThmNzEtZmNhN2M4Y2NjOTM2IiwidCI6IjIxYzNkZmQ2LWI2ZjEtNGIwYS04N2U4LWM0YjAxNzU4MjExMCIsImMiOjR9"
@@ -40,7 +52,6 @@ export default function ExperienciaProfissional() {
                     titulo="Dashboard Logística"
                     desc="Feito em Power BI"
                 />
-
             </div>
         </div>
     )
