@@ -16,6 +16,7 @@ import { FaPaintbrush } from "react-icons/fa6";
 import { SiPowerbi } from "react-icons/si";
 import { TfiWrite } from "react-icons/tfi";
 import { GrYoga } from "react-icons/gr";
+import { SiPostman } from "react-icons/si";
 import ExperienciaProfissional from '../../components/ExperienciaProfissional'
 
 
@@ -27,7 +28,8 @@ export default function Inicio() {
         { icon: <BsFiletypeCss />, nome: 'CSS' },
         { icon: <LiaJava />, nome: 'Java' },
         { icon: <SiPowerbi />, nome: 'Power BI' },
-        { icon: <DiMysql />, nome: 'SQL' }
+        { icon: <DiMysql />, nome: 'SQL' },
+        { icon: <SiPostman />, nome: 'Postman' }
     ]
 
     const hobbies = [
